@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.service.aviator;
+package com.dragon.hei.wsth.promote.aviator;
 
 import com.dragon.hei.wsth.vo.aviator.AviatorContext;
 import com.googlecode.aviator.AviatorEvaluator;

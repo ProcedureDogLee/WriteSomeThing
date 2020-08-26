@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.service.aviator.annotation;
+package com.dragon.hei.wsth.promote.aviator.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

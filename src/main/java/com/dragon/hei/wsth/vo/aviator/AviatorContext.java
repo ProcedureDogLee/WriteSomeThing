@@ -1,6 +1,6 @@
 package com.dragon.hei.wsth.vo.aviator;
 
-import com.dragon.hei.wsth.service.aviator.annotation.AviatorProperty;
+import com.dragon.hei.wsth.promote.aviator.annotation.AviatorProperty;
 import lombok.Data;
 
 import java.beans.PropertyDescriptor;

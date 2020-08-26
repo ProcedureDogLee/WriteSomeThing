@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.service.aviator.rule;
+package com.dragon.hei.wsth.promote.aviator.rule;
 
 import com.dragon.hei.wsth.vo.aviator.AviatorContext;
 
