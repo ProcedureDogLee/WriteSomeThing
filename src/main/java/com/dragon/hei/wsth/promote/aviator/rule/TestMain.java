@@ -22,19 +22,8 @@ class TestMain{
         List<AbstractAviatorRule> response = new ArrayList<>();
 
         // 规则chain
-        RuleChain ruleChain = new DefaultRuleChain(rules());System.out.println("等待。。。");
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        ruleChain.matchRule(context, response);System.out.println("等待。。。");
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        RuleChain ruleChain = new DefaultRuleChain(rules());
+        ruleChain.matchRule(context, response);
 
         System.out.println(JSON.toJSONString(response));
     }
