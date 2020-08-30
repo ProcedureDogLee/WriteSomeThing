@@ -25,7 +25,7 @@ class TestMain{
         RuleChain ruleChain = new DefaultRuleChain(rules());
         ruleChain.matchRule(context, response);
 
-        System.out.println(JSON.toJSONString(response));
+        System.out.println("规则链执行结果："+JSON.toJSONString(response));
     }
 
     private static AviatorContext buildContext(){
