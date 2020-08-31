@@ -6,10 +6,6 @@ import com.dragon.hei.wsth.vo.aviator.AviatorContext;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @Description:
- * @Author: lilong
- **/
 class TestMain{
 
     public static void main(String[] args) {
