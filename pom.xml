@@ -21,9 +21,21 @@
         <aviator.version>4.1.2</aviator.version>
         <javaassist.version>3.27.0-GA</javaassist.version>
         <fastjson.version>1.2.73</fastjson.version>
+        <guava-retrying.version>2.0.0</guava-retrying.version>
+        <ttl.version>2.11.5</ttl.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>${ttl.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.rholder</groupId>
+            <artifactId>guava-retrying</artifactId>
+            <version>${guava-retrying.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.javassist</groupId>
             <artifactId>javassist</artifactId>
