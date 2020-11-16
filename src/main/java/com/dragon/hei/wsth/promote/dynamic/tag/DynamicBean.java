@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE})
-public @interface TenantOrderTag {
+public @interface DynamicBean {
 
     String value() default "";
 

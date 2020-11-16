@@ -2,7 +2,7 @@ package com.dragon.hei.wsth.service.tenant.impl;
 
 import com.dragon.hei.wsth.mapper.po.TmpUser;
 import com.dragon.hei.wsth.promote.dynamic.enums.AccessChannel;
-import com.dragon.hei.wsth.promote.dynamic.tag.TenantOrderTag;
+import com.dragon.hei.wsth.promote.dynamic.tag.DynamicBean;
 import com.dragon.hei.wsth.service.tenant.ITenantService;
 import com.dragon.hei.wsth.service.tenant.abstr.AbstractUserService;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@TenantOrderTag(accessChannel = AccessChannel.Pc)
+@DynamicBean(accessChannel = AccessChannel.Pc)
 public class TenantServiceImpl extends AbstractUserService implements ITenantService {
 
     @Override
