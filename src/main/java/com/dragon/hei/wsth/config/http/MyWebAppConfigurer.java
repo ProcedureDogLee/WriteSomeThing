@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.config;
+package com.dragon.hei.wsth.config.http;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

@@ -1,7 +1,6 @@
 package com.dragon.hei.wsth.promote.spi;
 
 import com.dragon.hei.wsth.WsthApplicationTests;
-import com.dragon.hei.wsth.promote.spi.test.SpiFunction;
 import org.junit.Test;
 
 import java.util.ServiceLoader;

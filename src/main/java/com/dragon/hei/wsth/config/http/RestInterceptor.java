@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.config;
+package com.dragon.hei.wsth.config.http;
 
 
 import com.dragon.hei.wsth.config.utils.ThreadContext;
