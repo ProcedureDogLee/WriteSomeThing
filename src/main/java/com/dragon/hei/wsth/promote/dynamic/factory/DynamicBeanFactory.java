@@ -3,7 +3,7 @@ package com.dragon.hei.wsth.promote.dynamic.factory;
 import com.dragon.hei.wsth.config.utils.ThreadContextCache;
 import com.dragon.hei.wsth.promote.dynamic.enums.AccessChannel;
 import com.dragon.hei.wsth.promote.dynamic.tag.DynamicBean;
-import com.dragon.hei.wsth.config.utils.ApplicationContextUtil;
+import com.dragon.hei.wsth.config.context.ApplicationContextUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.Assert;
 
@@ -85,7 +85,7 @@ public class DynamicBeanFactory {
         for(Map.Entry<String, T> entry : beans.entrySet()){
             T bean = entry.getValue();
             // TODO:spring管理的bean是生成的代理对象，这里获取原始类拿到注解信息
-//            Class srcCls = bean.getClass().getSuperclass();
+//            Class srcCls = context.getClass().getSuperclass();
             Class srcCls = bean.getClass();
             DynamicBean tag = (DynamicBean) srcCls.getAnnotation(DynamicBean.class);
             Integer _channel;

@@ -1,7 +1,6 @@
-package com.dragon.hei.wsth.config.bean;
+package com.dragon.hei.wsth.config.context;
 
 
-import com.dragon.hei.wsth.config.utils.ApplicationContextUtil;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
