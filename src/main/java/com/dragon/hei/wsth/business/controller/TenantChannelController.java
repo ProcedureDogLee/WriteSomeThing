@@ -1,9 +1,9 @@
-package com.dragon.hei.wsth.controller;
+package com.dragon.hei.wsth.business.controller;
 
-import com.dragon.hei.wsth.mapper.po.TmpUser;
+import com.dragon.hei.wsth.business.mapper.po.TmpUser;
 import com.dragon.hei.wsth.promote.dynamic.factory.DynamicBeanFactory;
-import com.dragon.hei.wsth.service.tenant.ITenantService;
-import com.dragon.hei.wsth.vo.ResponseVo;
+import com.dragon.hei.wsth.business.service.tenant.ITenantService;
+import com.dragon.hei.wsth.business.vo.ResponseVo;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;

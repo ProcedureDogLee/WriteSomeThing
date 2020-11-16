@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.dragon.hei.wsth.mapper")
+@MapperScan(basePackages = "com.dragon.hei.wsth.business.mapper")
 public class WsthApplication {
 
     public static void main(String[] args) {

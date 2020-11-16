@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.vo.aviator;
+package com.dragon.hei.wsth.promote.vo.aviator;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.enums;
+package com.dragon.hei.wsth.business.enums;
 
 public enum RespCode {
 

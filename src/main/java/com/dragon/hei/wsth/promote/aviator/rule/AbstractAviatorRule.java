@@ -1,7 +1,7 @@
 package com.dragon.hei.wsth.promote.aviator.rule;
 
-import com.dragon.hei.wsth.vo.aviator.AviatorContext;
-import com.dragon.hei.wsth.vo.aviator.AviatorResult;
+import com.dragon.hei.wsth.promote.vo.aviator.AviatorContext;
+import com.dragon.hei.wsth.promote.vo.aviator.AviatorResult;
 import lombok.Data;
 
 import java.util.List;

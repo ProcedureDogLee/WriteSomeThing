@@ -1,6 +1,6 @@
-package com.dragon.hei.wsth.controller;
+package com.dragon.hei.wsth.business.controller;
 
-import com.dragon.hei.wsth.vo.ResponseVo;
+import com.dragon.hei.wsth.business.vo.ResponseVo;
 import groovy.lang.Binding;
 import groovy.lang.GroovyClassLoader;
 import groovy.lang.GroovyShell;

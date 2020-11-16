@@ -1,6 +1,6 @@
-package com.dragon.hei.wsth.service.tenant;
+package com.dragon.hei.wsth.business.service.tenant;
 
-import com.dragon.hei.wsth.mapper.po.TmpUser;
+import com.dragon.hei.wsth.business.mapper.po.TmpUser;
 
 public interface ITenantService {
 

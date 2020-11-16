@@ -1,6 +1,6 @@
-package com.dragon.hei.wsth.vo;
+package com.dragon.hei.wsth.business.vo;
 
-import com.dragon.hei.wsth.enums.RespCode;
+import com.dragon.hei.wsth.business.enums.RespCode;
 import lombok.Data;
 
 /**

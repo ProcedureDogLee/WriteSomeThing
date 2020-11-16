@@ -2,9 +2,9 @@ package com.dragon.hei.wsth.promote.dynamic;
 
 import com.alibaba.fastjson.JSON;
 import com.dragon.hei.wsth.WsthApplicationTests;
-import com.dragon.hei.wsth.mapper.po.TmpUser;
+import com.dragon.hei.wsth.business.mapper.po.TmpUser;
 import com.dragon.hei.wsth.promote.dynamic.factory.DynamicBeanFactory;
-import com.dragon.hei.wsth.service.tenant.ITenantService;
+import com.dragon.hei.wsth.business.service.tenant.ITenantService;
 import org.junit.Test;
 
 public class DynamicLoadingBeanTest extends WsthApplicationTests {

@@ -3,7 +3,7 @@ package com.dragon.hei.wsth.promote.dynamic.factory;
 import com.dragon.hei.wsth.config.utils.ThreadContextCache;
 import com.dragon.hei.wsth.promote.dynamic.enums.AccessChannel;
 import com.dragon.hei.wsth.promote.dynamic.tag.DynamicBean;
-import com.dragon.hei.wsth.util.ApplicationContextUtil;
+import com.dragon.hei.wsth.config.utils.ApplicationContextUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.Assert;
 

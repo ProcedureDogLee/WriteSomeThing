@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.mapper.po;
+package com.dragon.hei.wsth.business.mapper.po;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

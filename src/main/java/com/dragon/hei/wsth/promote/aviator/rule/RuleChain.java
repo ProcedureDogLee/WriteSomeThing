@@ -1,6 +1,6 @@
 package com.dragon.hei.wsth.promote.aviator.rule;
 
-import com.dragon.hei.wsth.vo.aviator.AviatorContext;
+import com.dragon.hei.wsth.promote.vo.aviator.AviatorContext;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.dragon.hei.wsth.mapper;
+package com.dragon.hei.wsth.business.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.dragon.hei.wsth.mapper.po.TmpUser;
+import com.dragon.hei.wsth.business.mapper.po.TmpUser;
 
 /**
  * @Description:

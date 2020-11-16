@@ -1,4 +1,4 @@
-package com.dragon.hei.wsth.util;
+package com.dragon.hei.wsth.config.utils;
 
 
 import org.springframework.context.ApplicationContext;

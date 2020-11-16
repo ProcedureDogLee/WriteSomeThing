@@ -5,7 +5,7 @@ import com.dragon.hei.wsth.WsthApplicationTests;
 import com.dragon.hei.wsth.promote.aviator.rule.AbstractAviatorRule;
 import com.dragon.hei.wsth.promote.aviator.rule.DefaultRuleChain;
 import com.dragon.hei.wsth.promote.aviator.rule.RuleChain;
-import com.dragon.hei.wsth.vo.aviator.AviatorContext;
+import com.dragon.hei.wsth.promote.vo.aviator.AviatorContext;
 import org.junit.Test;
 
 import java.util.ArrayList;

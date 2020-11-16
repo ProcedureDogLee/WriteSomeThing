@@ -1,8 +1,8 @@
-package com.dragon.hei.wsth.service.tenant.abstr;
+package com.dragon.hei.wsth.business.service.tenant.abstr;
 
 
-import com.dragon.hei.wsth.mapper.TmpUserMapper;
-import com.dragon.hei.wsth.mapper.po.TmpUser;
+import com.dragon.hei.wsth.business.mapper.TmpUserMapper;
+import com.dragon.hei.wsth.business.mapper.po.TmpUser;
 import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 
