@@ -3,10 +3,7 @@ package com.dragon.hei.wsth.promote.channel;
 import com.dragon.hei.wsth.promote.channel.enums.SupplierEnum;
 import com.dragon.hei.wsth.promote.vo.aviator.AviatorContext;
 
-/**
- * @Description:
- * @Author: lilong
- **/
+
 public abstract class DataImportTemplate {
 
     public void importData(Object data){
